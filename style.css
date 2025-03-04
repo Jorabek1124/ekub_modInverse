@@ -1,0 +1,100 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.btn-ekub { background-color: #4CAF50; color: white; }
+.btn-inverse { background-color: #2196F3; color: white; }
+.result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 90%;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-ekub { background-color: #4CAF50; color: white; }
+.btn-inverse { background-color: #2196F3; color: white; }
+
+.result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+/* 📱 Mobilga moslashish */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        margin: 30px auto;
+        padding: 15px;
+    }
+
+    input, button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .result {
+        font-size: 18px;
+    }
+}
